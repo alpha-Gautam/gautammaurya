@@ -1,4 +1,5 @@
 import React from "react";
+import LinkIcons from "../assets/icons";
 
 function Projects() {
   const projects = [
@@ -20,7 +21,7 @@ function Projects() {
         "HTML",
         "Tailwindcss",
       ],
-      link: "https://github.com/user/project-two",
+      link: "https://rec-papers.vercel.app/",
     },
     {
       title: "Blog Articles",
@@ -29,17 +30,17 @@ function Projects() {
         "Implemented a public API that securely delivers blog content to external users, providing structured data access for third-party integrations and enhancing platform versatility.",
       ],
       tech_stack: ["Python", "Flask", "Rest API", "HTML", "Tailwindcss"],
-      link: "https://github.com/user/project-one",
+      link: "https://flask-web-xlni.onrender.com/",
     },
-    {
-      title: "Blog Articles",
-      description: [
-        "Designed a dynamic blog website that enables users to create, edit, and manage blog posts through a comprehensive admin panel, offering a seamless content management experience.",
-        "Implemented a public API that securely delivers blog content to external users, providing structured data access for third-party integrations and enhancing platform versatility.",
-      ],
-      tech_stack: ["Python", "Flask", "Rest API", "HTML", "Tailwindcss"],
-      link: "https://github.com/user/project-one",
-    },
+    // {
+    //   title: "Blog Articles",
+    //   description: [
+    //     "Designed a dynamic blog website that enables users to create, edit, and manage blog posts through a comprehensive admin panel, offering a seamless content management experience.",
+    //     "Implemented a public API that securely delivers blog content to external users, providing structured data access for third-party integrations and enhancing platform versatility.",
+    //   ],
+    //   tech_stack: ["Python", "Flask", "Rest API", "HTML", "Tailwindcss"],
+    //   link: "https://github.com/user/project-one",
+    // },
   ];
 
   return (
@@ -55,7 +56,9 @@ function Projects() {
             <div className="relative flex flex-col justify-between items-center bg-black rounded-2xl p-5 gap-5 min-h-[600px] h-full overflow-hidden">
               <div className=" flex justify-between h-[10%] w-full ">
                 <span>{project.title}</span>
-                <a href={project.link}>Link</a>
+                <a href={project.link} target="_blank">
+                  <LinkIcons />
+                </a>
               </div>
               <div className="h-[80%] flex justify-center items-center ">
                 <ul className=" flex flex-col list-disc gap-5 px-5">

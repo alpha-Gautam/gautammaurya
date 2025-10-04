@@ -1,10 +1,12 @@
 import React from "react";
+import LinkIcons from "../assets/icons";
 
 function Experience() {
   const experiences = [
     {
       title: "Full Stack Developer Intern",
       company: "Code Smart",
+      url: "https://codesmart.in/",
       locations: "Remote",
       tech_stack: ["Python", "Flask", "TypeScript", "React", "PostgreSQL"],
       duration: "September 2024 – January 2025",
@@ -13,6 +15,24 @@ function Experience() {
         "Extended platform support from LeetCode to 10+ coding sites (HackerRank, InterviewBit, Codeforces, etc.) using React, TypeScript, and web scraping.",
         "Created secure RESTful APIs in Flask for authentication and data management with PostgreSQL",
         "Implemented an extension feature to import a user’s complete LeetCode question history through efficient web scraping with secure storage.",
+      ],
+    },
+    {
+      title: "Machine Learning Engineer Intern",
+      company: "Menterness",
+      locations: "Remote",
+      url: "https://drive.google.com/file/d/1z9Weuma0mI4kQZD7tj2sq2AyVRcvsvFK/view?usp=sharing",
+      tech_stack: [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "Machine Learning",
+      ],
+      duration: "August 2024 – September 2024",
+      points: [
+        "Built an ML model improving sales forecasting accuracy by 80%, optimizing inventory and marketing strategies.",
+        "Achieved up to 80% improvement in operational efficiency and decision-making speed.",
       ],
     },
   ];
@@ -25,9 +45,16 @@ function Experience() {
         {/* items */}
         {experiences.map((exp, id) => (
           <div className="flex flex-col w-[90%] justify-center items-center border-2 rounded-2xl    ">
+            {/* <span className="w-full text-5xl ">*</span> */}
             <div name="title" className="flex justify-between w-full p-4">
               <div className="flex flex-col">
-                <span className="text-xl font-semibold">{exp.title}</span>
+                <span className=" flex text-xl font-semibold gap-2">
+                  {exp.title}
+                  <a href={exp.url} target="_blank" rel="noopener noreferrer">
+                    <LinkIcons />
+                  </a>
+                </span>
+
                 <span className="">
                   {exp.company}: {exp.locations}
                 </span>

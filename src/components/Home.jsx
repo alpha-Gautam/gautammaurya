@@ -9,15 +9,27 @@ export default function Home() {
         </span>
         <span className="text-[20px]">Noida, Uttar Pradesh</span>
       </div>
-      <div className="flex space-x-4">
+      <div className="flex space-x-4 text-white">
         <button className="bg-blue-500 text-white px-4 py-2 rounded">
-          Download CV
+          <a
+            href="https://drive.google.com/file/d/1dkjIh6eOeeypZWAVa4s8fgj1pYLS4SJU/view?usp=sharing"
+            target="_blank"
+          >
+            Download CV
+          </a>
         </button>
         <button className="bg-blue-500 text-white px-4 py-2 rounded">
-          View Projects
+          <a href="https://github.com/alpha-Gautam" target="_blank">
+            GitHub
+          </a>
         </button>
         <button className="bg-blue-500 text-white px-4 py-2 rounded">
-          Contact Me
+          <a href="" target="_blank">
+            View Projects
+          </a>
+        </button>
+        <button className="bg-blue-500 text-white px-4 py-2 rounded">
+          <a href="">Contact Me</a>
         </button>
       </div>
     </div>
