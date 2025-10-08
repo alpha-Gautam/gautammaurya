@@ -48,15 +48,21 @@ function Projects() {
       <div className="text-5xl font-bold mt-10">Projects</div>
 
       {/* <--! main container---> */}
-      <div className="  justify-center items-center  mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="  justify-center items-center  mt-10 grid grid-cols-1 md:grid-cols-2 gap-20">
         {/* cards */}
         {projects.map((project, index) => (
-          <div className=" relative flex flex-col w-[500px] min-h-[600px] sm-text-wrap">
+          <div className=" relative flex flex-col w-[450px] min-h-[600px] sm-text-wrap">
             <div className="absolute -right-5 -bottom-5 rounded-2xl bg-yellow-500 w-full  min-h-[600px] h-full"></div>
             <div className="relative flex flex-col justify-between items-center bg-black rounded-2xl p-5 gap-5 min-h-[600px] h-full overflow-hidden">
               <div className=" flex justify-between h-[10%] w-full ">
-                <span>{project.title}</span>
-                <a href={project.link} target="_blank">
+                <span className=" text-xl font-semibold rounded-2xl hover:bg-white/20 px-3 py-1">
+                  {project.title}
+                </span>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  className="hover:scale-115 transition-all"
+                >
                   <LinkIcons />
                 </a>
               </div>
@@ -71,7 +77,7 @@ function Projects() {
                 {project.tech_stack.map((tech, id) => (
                   <span
                     key={id}
-                    className="bg-gray-800 px-3 py-1 rounded-full text-sm"
+                    className="bg-gray-800 px-3 py-1 rounded-full text-sm hover:scale-110 hover:bg-white/40"
                   >
                     {tech}
                   </span>
