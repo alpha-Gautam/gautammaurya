@@ -50,7 +50,12 @@ function Experience() {
               <div className="flex flex-col">
                 <span className=" flex text-xl font-semibold gap-2">
                   {exp.title}
-                  <a href={exp.url} target="_blank" rel="noopener noreferrer">
+                  <a
+                    href={exp.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:scale-115 transition-all"
+                  >
                     <LinkIcons />
                   </a>
                 </span>

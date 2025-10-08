@@ -1,4 +1,5 @@
 import React from "react";
+import { CollegeIcons } from "../assets/icons";
 
 function Education() {
   return (
@@ -6,7 +7,10 @@ function Education() {
       <div className="flex mb-10 text-5xl font-bold">
         <span>Education</span>
       </div>
-      <div className="flex flex-col  justify-center items-center w-[40%] sm:h-[200px] rounded-2xl p-5 bg-white/10 ">
+      <div className="flex flex-col  justify-center items-center w-[40%] min-h-[200px] rounded-2xl p-5 bg-white/10 ">
+        <div className="flex justify-center items-center p-5 rounded-full bg-white/80 mb-15 ">
+          <CollegeIcons />
+        </div>
         <span className="font-bold">Bachelor of Technology</span>
         <span className="text-xl text-center p-3">
           Computer Science and Engineering

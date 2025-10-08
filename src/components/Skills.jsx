@@ -26,7 +26,7 @@ function Skills() {
           {skills.map((skill, index) => (
             <span
               key={index}
-              className="bg-gray-800 px-3 py-1 rounded-full text-sm"
+              className="bg-gray-800 px-3 py-1 rounded-full text-sm hover:scale-110 hover:bg-white/40"
             >
               {skill}
             </span>
