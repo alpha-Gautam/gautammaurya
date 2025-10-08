@@ -38,7 +38,7 @@ function Experience() {
   ];
 
   return (
-    <div className="flex flex-col py-10 min-h-screen justify-center items-center gap-10 ">
+    <div className="flex flex-col py-10 min-h-screen justify-center items-center gap-10 bg-white/5">
       <span className="text-5xl font-bold">Experience</span>
 
       <div className="flex flex-col w-[60%] justify-center border-l-2 items-center gap-10 ">
