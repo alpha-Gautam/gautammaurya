@@ -19,59 +19,53 @@ export default function Header() {
             </div>
             <span className="font-bold ml">Gautam Kumar Maurya</span>
           </li>
-          <li className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-2 py-2 cursor-pointer">
-            <span
-              onClick={() => {
-                scrollToSection("home");
-              }}
-            >
-              Home
-            </span>
+          <li
+            onClick={() => {
+              scrollToSection("home");
+            }}
+            className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-2 py-2 cursor-pointer"
+          >
+            Home
           </li>
-          <li className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-2 py-2 cursor-pointer">
-            <span
-              onClick={() => {
-                scrollToSection("experience");
-              }}
-            >
-              Experience
-            </span>
+          <li
+            onClick={() => {
+              scrollToSection("experience");
+            }}
+            className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-2 py-2 cursor-pointer"
+          >
+            Experience
           </li>
-          <li className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-2 py-2 cursor-pointer">
-            <span
-              onClick={() => {
-                scrollToSection("projects");
-              }}
-            >
-              Projects
-            </span>
+          <li
+            onClick={() => {
+              scrollToSection("projects");
+            }}
+            className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-2 py-2 cursor-pointer"
+          >
+            Projects
           </li>
-          <li className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-2 py-2 cursor-pointer">
-            <span
-              onClick={() => {
-                scrollToSection("skills");
-              }}
-            >
-              Skills
-            </span>
+          <li
+            onClick={() => {
+              scrollToSection("skills");
+            }}
+            className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-2 py-2 cursor-pointer"
+          >
+            Skills
           </li>
-          <li className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-2 py-2 cursor-pointer">
-            <span
-              onClick={() => {
-                scrollToSection("education");
-              }}
-            >
-              Education
-            </span>
+          <li
+            onClick={() => {
+              scrollToSection("education");
+            }}
+            className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-2 py-2 cursor-pointer"
+          >
+            Education
           </li>
-          <li className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-2 py-2 cursor-pointer">
-            <span
-              onClick={() => {
-                scrollToSection("achievements");
-              }}
-            >
-              Achievements
-            </span>
+          <li
+            onClick={() => {
+              scrollToSection("achievements");
+            }}
+            className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-2 py-2 cursor-pointer"
+          >
+            Achievements
           </li>
         </ul>
       </nav>
