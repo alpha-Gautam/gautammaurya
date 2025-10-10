@@ -52,11 +52,12 @@ function Projects() {
         {/* cards */}
         {projects.map((project, index) => (
           <div className=" relative flex flex-col w-[450px] min-h-[600px] sm-text-wrap z-5">
-            <div className="absolute -right-5 -bottom-5 rounded-2xl bg-yellow-500 w-full  min-h-[600px] h-full"></div>
+            <div className="absolute -right-7 -bottom-12 rounded-2xl bg-yellow-500 w-full  min-h-[600px] h-full"></div>
             <div className="relative flex flex-col justify-between items-center bg-black rounded-2xl p-5 gap-5 min-h-[600px] h-full overflow-hidden">
               <div className=" flex justify-between h-[10%] w-full ">
-                <span className=" text-xl font-semibold rounded-2xl hover:bg-white/20 px-3 py-1">
+                <span className=" text-xl font-semibold rounded-2xl  px-3 py-1">
                   {project.title}
+                  <div className="w-60  h-5 bg-amber-400"></div>
                 </span>
                 <a
                   href={project.link}

@@ -3,7 +3,7 @@ import React from "react";
 export default function Header() {
   return (
     <header className="flex items-center justify-center w-full header fixed top-0 left-0 p-4 z-50">
-      <nav className="header w-[95%]  bg-gray-800 flex items-center justify-center rounded-2xl h-[60px] shadow-white/80 text-white overflow-hidden">
+      <nav className="header w-[95%]  bg-gray-900 flex items-center justify-center rounded-2xl h-[60px] shadow-white/80 text-white overflow-hidden">
         <ul className="flex space-x-4 justify-center">
           <li className="px-10 flex items-center">
             <div className="w-10 h-10 bg-white rounded-full mr-4 text-black/80 flex justify-center items-center font-bold">
