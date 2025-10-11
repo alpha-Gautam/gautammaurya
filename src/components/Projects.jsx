@@ -48,7 +48,7 @@ function Projects() {
       <div className="text-5xl font-bold mt-10">Projects</div>
 
       {/* <--! main container---> */}
-      <div className="  justify-center items-center  mt-10 grid grid-cols-1 md:grid-cols-2 gap-20">
+      <div className="  justify-center items-center p-5 mt-10 grid grid-cols-1 md:grid-cols-2 gap-20">
         {/* cards */}
         {projects.map((project, index) => (
           <div className=" relative flex flex-col w-[450px] min-h-[600px] sm-text-wrap z-5">
