@@ -38,17 +38,22 @@ function Experience() {
   ];
 
   return (
-    <div className="flex flex-col py-10 min-h-screen justify-center items-center gap-10 bg-white/5">
-      <span className="text-5xl font-bold">Experience</span>
+    <div className="flex flex-col py-10 min-h-screen justify-center items-center gap-10 bg-white/5 px-4">
+      <span className="text-3xl sm:text-4xl md:text-5xl font-bold text-center">
+        Experience
+      </span>
 
-      <div className="flex flex-col w-[60%] justify-center border-l-2 items-center gap-10 ">
+      <div className="flex flex-col w-full max-w-4xl justify-center border-l-2 items-center gap-10">
         {/* items */}
         {experiences.map((exp, id) => (
-          <div className="flex flex-col w-[90%] justify-center items-center border-2 rounded-2xl    ">
+          <div className="flex flex-col w-full max-w-2xl justify-center items-center border-2 rounded-2xl p-4">
             {/* <span className="w-full text-5xl ">*</span> */}
-            <div name="title" className="flex justify-between w-full p-4">
+            <div
+              name="title"
+              className="flex flex-col sm:flex-row justify-between w-full p-4 gap-4"
+            >
               <div className="flex flex-col">
-                <span className=" flex text-xl font-semibold gap-2">
+                <span className=" flex text-lg sm:text-xl font-semibold gap-2">
                   {exp.title}
                   <a
                     href={exp.url}
@@ -64,15 +69,17 @@ function Experience() {
                   {exp.company}: {exp.locations}
                 </span>
               </div>
-              <span className="text-xl font-semibold">{exp.duration}</span>
+              <span className="text-lg sm:text-xl font-semibold">
+                {exp.duration}
+              </span>
             </div>
             <span name="br" className="border-b-2 w-[97%] mx-5"></span>
-            <div className="flex w-full pl-5 text-xl font-mono">
+            <div className="flex w-full pl-5 text-sm sm:text-lg font-mono overflow-x-auto">
               {experiences[id].tech_stack.join(", ")}
             </div>
 
             <div name="description" className=" flex w-full p-5">
-              <ul className="flex list-disc pl-3 flex-col gap-3">
+              <ul className="flex list-disc pl-3 flex-col gap-3 text-sm sm:text-base">
                 {experiences[id].points.map((point, index) => (
                   <li key={index}>{point}</li>
                 ))}

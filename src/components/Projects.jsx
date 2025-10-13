@@ -44,20 +44,22 @@ function Projects() {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen p-10  items-center bg-gray-700 ">
-      <div className="text-5xl font-bold mt-10">Projects</div>
+    <div className="flex flex-col min-h-screen p-4 sm:p-10 items-center bg-gray-700">
+      <div className="text-3xl sm:text-4xl md:text-5xl font-bold mt-10 text-center">
+        Projects
+      </div>
 
       {/* <--! main container---> */}
-      <div className="  justify-center items-center p-5 mt-10 grid grid-cols-1 md:grid-cols-2 gap-20">
+      <div className="justify-center items-center p-5 mt-10 grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-20">
         {/* cards */}
-        {projects.map((project, index) => (
-          <div className=" relative flex flex-col w-[450px] min-h-[600px] sm-text-wrap z-5">
-            <div className="absolute -right-7 -bottom-12 rounded-2xl bg-yellow-500 w-full  min-h-[600px] h-full"></div>
-            <div className="relative flex flex-col justify-between items-center bg-black rounded-2xl p-5 gap-5 min-h-[600px] h-full overflow-hidden">
-              <div className=" flex justify-between h-[10%] w-full ">
-                <span className=" text-xl font-semibold rounded-2xl  px-3 py-1">
+        {projects.map((project) => (
+          <div className="relative flex flex-col w-full max-w-sm mx-auto min-h-[500px] sm:min-h-[600px] z-5">
+            <div className="absolute -right-3 sm:-right-7 -bottom-6 sm:-bottom-12 rounded-2xl bg-yellow-500 w-full min-h-[500px] sm:min-h-[600px] h-full"></div>
+            <div className="relative flex flex-col justify-between items-center bg-black rounded-2xl p-4 sm:p-5 gap-5 min-h-[500px] sm:min-h-[600px] h-full overflow-hidden">
+              <div className="flex justify-between h-[10%] w-full">
+                <span className="text-lg sm:text-xl font-semibold rounded-2xl px-3 py-1">
                   {project.title}
-                  <div className="w-60  h-5 bg-amber-400"></div>
+                  <div className="w-40 sm:w-60 h-5 bg-amber-400"></div>
                 </span>
                 <a
                   href={project.link}
@@ -67,18 +69,18 @@ function Projects() {
                   <LinkIcons />
                 </a>
               </div>
-              <div className="h-[80%] flex justify-center items-center ">
-                <ul className=" flex flex-col list-disc gap-5 px-5">
+              <div className="h-[70%] sm:h-[80%] flex justify-center items-center">
+                <ul className="flex flex-col list-disc gap-3 sm:gap-5 px-5 text-sm sm:text-base">
                   {project.description.map((desc, id) => (
                     <li key={id}>{desc}</li>
                   ))}
                 </ul>
               </div>
-              <div className="flex flex-wrap w-full p-5 gap-2">
+              <div className="flex flex-wrap w-full p-3 sm:p-5 gap-2">
                 {project.tech_stack.map((tech, id) => (
                   <span
                     key={id}
-                    className="bg-gray-800 px-3 py-1 rounded-full text-sm hover:scale-110 hover:bg-white/40"
+                    className="bg-gray-800 px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm hover:scale-110 hover:bg-white/40"
                   >
                     {tech}
                   </span>
