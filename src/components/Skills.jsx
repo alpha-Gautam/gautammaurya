@@ -19,9 +19,9 @@ function Skills() {
     "Rest API",
   ];
   return (
-    <div className="min-h-screen flex justify-center px-4">
+    <div className="min-h-screen flex justify-center px-4 bg-gray-800">
       <div className="w-full max-w-4xl flex flex-col gap-10 sm:gap-20 justify-center items-center">
-        <div className="text-3xl sm:text-4xl md:text-5xl font-bold p-4 sm:p-10 text-center">
+        <div className="text-3xl sm:text-4xl md:text-5xl font-bold p-4 sm:p-10 text-center pt-20">
           Skills
         </div>
         <div className="flex rounded-2xl justify-center items-center p-2 mb-20 sm:mb-40 flex-wrap w-full h-full gap-2">

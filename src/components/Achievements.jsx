@@ -3,7 +3,7 @@ import { AchievementsIcons } from "../assets/icons";
 
 function Achievements() {
   return (
-    <div className="min-h-screen flex flex-col items-center bg-white/10 pt-20 px-4">
+    <div className="min-h-screen flex flex-col items-center bg-gray-800 pt-20 px-4">
       <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-center">
         Achievements
       </div>

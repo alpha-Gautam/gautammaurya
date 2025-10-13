@@ -32,37 +32,37 @@ export default function Header() {
         <ul className="hidden md:flex space-x-4 justify-center">
           <li
             onClick={() => scrollToSection("home")}
-            className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-2 py-2 cursor-pointer"
+            className="rounded-xl hover:shadow-2xl hover:bg-white/40 focus:shadow-2xl focus:bg-white/40 transition-transform hover:scale-105 focus:scale-105 px-2 py-2 cursor-pointer"
           >
             Home
           </li>
           <li
             onClick={() => scrollToSection("experience")}
-            className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-2 py-2 cursor-pointer"
+            className="rounded-xl hover:shadow-2xl hover:bg-white/40 focus:shadow-2xl focus:bg-white/40 transition-transform hover:scale-105 focus:scale-105 px-2 py-2 cursor-pointer"
           >
             Experience
           </li>
           <li
             onClick={() => scrollToSection("projects")}
-            className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-2 py-2 cursor-pointer"
+            className="rounded-xl hover:shadow-2xl hover:bg-white/40 focus:shadow-2xl focus:bg-white/40 transition-transform hover:scale-105 focus:scale-105 px-2 py-2 cursor-pointer"
           >
             Projects
           </li>
           <li
             onClick={() => scrollToSection("skills")}
-            className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-2 py-2 cursor-pointer"
+            className="rounded-xl hover:shadow-2xl hover:bg-white/40 focus:shadow-2xl focus:bg-white/40 transition-transform hover:scale-105 focus:scale-105 px-2 py-2 cursor-pointer"
           >
             Skills
           </li>
           <li
             onClick={() => scrollToSection("education")}
-            className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-2 py-2 cursor-pointer"
+            className="rounded-xl hover:shadow-2xl hover:bg-white/40 focus:shadow-2xl focus:bg-white/40 transition-transform hover:scale-105 focus:scale-105 px-2 py-2 cursor-pointer"
           >
             Education
           </li>
           <li
             onClick={() => scrollToSection("achievements")}
-            className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-2 py-2 cursor-pointer"
+            className="rounded-xl hover:shadow-2xl hover:bg-white/40 focus:shadow-2xl focus:bg-white/40 transition-transform hover:scale-105 focus:scale-105 px-2 py-2 cursor-pointer"
           >
             Achievements
           </li>
@@ -96,37 +96,37 @@ export default function Header() {
             <ul className="flex flex-col space-y-2 items-center">
               <li
                 onClick={() => scrollToSection("home")}
-                className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-4 py-2 cursor-pointer w-full text-center"
+                className="rounded-xl hover:shadow-2xl hover:bg-white/40 focus:shadow-2xl focus:bg-white/40 transition-transform hover:scale-105 focus:scale-105 px-4 py-2 cursor-pointer w-full text-center"
               >
                 Home
               </li>
               <li
                 onClick={() => scrollToSection("experience")}
-                className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-4 py-2 cursor-pointer w-full text-center"
+                className="rounded-xl hover:shadow-2xl hover:bg-white/40 focus:shadow-2xl focus:bg-white/40 transition-transform hover:scale-105 focus:scale-105 px-4 py-2 cursor-pointer w-full text-center"
               >
                 Experience
               </li>
               <li
                 onClick={() => scrollToSection("projects")}
-                className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-4 py-2 cursor-pointer w-full text-center"
+                className="rounded-xl hover:shadow-2xl hover:bg-white/40 focus:shadow-2xl focus:bg-white/40 transition-transform hover:scale-105 focus:scale-105 px-4 py-2 cursor-pointer w-full text-center"
               >
                 Projects
               </li>
               <li
                 onClick={() => scrollToSection("skills")}
-                className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-4 py-2 cursor-pointer w-full text-center"
+                className="rounded-xl hover:shadow-2xl hover:bg-white/40 focus:shadow-2xl focus:bg-white/40 transition-transform hover:scale-105 focus:scale-105 px-4 py-2 cursor-pointer w-full text-center"
               >
                 Skills
               </li>
               <li
                 onClick={() => scrollToSection("education")}
-                className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-4 py-2 cursor-pointer w-full text-center"
+                className="rounded-xl hover:shadow-2xl hover:bg-white/40 focus:shadow-2xl focus:bg-white/40 transition-transform hover:scale-105 focus:scale-105 px-4 py-2 cursor-pointer w-full text-center"
               >
                 Education
               </li>
               <li
                 onClick={() => scrollToSection("achievements")}
-                className="rounded-xl hover:shadow-2xl hover:bg-white/40 transition-transform hover:scale-105 px-4 py-2 cursor-pointer w-full text-center"
+                className="rounded-xl hover:shadow-2xl hover:bg-white/40 focus:shadow-2xl focus:bg-white/40 transition-transform hover:scale-105 focus:scale-105 px-4 py-2 cursor-pointer w-full text-center"
               >
                 Achievements
               </li>

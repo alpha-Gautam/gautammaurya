@@ -38,8 +38,8 @@ function Experience() {
   ];
 
   return (
-    <div className="flex flex-col py-10 min-h-screen justify-center items-center gap-10 bg-white/5 px-4">
-      <span className="text-3xl sm:text-4xl md:text-5xl font-bold text-center">
+    <div className="flex flex-col py-10 min-h-screen justify-center items-center gap-10 bg-gray-800 px-4">
+      <span className="text-3xl sm:text-4xl md:text-5xl font-bold text-center pt-20">
         Experience
       </span>
 

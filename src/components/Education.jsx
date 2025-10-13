@@ -3,7 +3,7 @@ import { CollegeIcons } from "../assets/icons";
 
 function Education() {
   return (
-    <div className="flex flex-col items-center pt-20 min-h-screen gap-10 sm:gap-20 bg-blue-500/10 px-4">
+    <div className="flex flex-col items-center pt-20 min-h-screen gap-10 sm:gap-20 bg-gray-800 px-4">
       <div className="flex mb-10 text-3xl sm:text-4xl md:text-5xl font-bold">
         <span>Education</span>
       </div>

@@ -44,8 +44,8 @@ function Projects() {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen p-4 sm:p-10 items-center bg-gray-700">
-      <div className="text-3xl sm:text-4xl md:text-5xl font-bold mt-10 text-center">
+    <div className="flex flex-col min-h-screen p-4 sm:p-10 items-center bg-gray-800">
+      <div className="text-3xl sm:text-4xl md:text-5xl font-bold mt-20 text-center">
         Projects
       </div>
 
@@ -53,7 +53,7 @@ function Projects() {
       <div className="justify-center items-center p-5 mt-10 grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-20">
         {/* cards */}
         {projects.map((project) => (
-          <div className="relative flex flex-col w-full max-w-sm mx-auto min-h-[500px] sm:min-h-[600px] z-5">
+          <div className="relative flex flex-col w-full max-w-lg mx-auto min-h-[500px] sm:min-h-[600px] z-5">
             <div className="absolute -right-3 sm:-right-7 -bottom-6 sm:-bottom-12 rounded-2xl bg-yellow-500 w-full min-h-[500px] sm:min-h-[600px] h-full"></div>
             <div className="relative flex flex-col justify-between items-center bg-black rounded-2xl p-4 sm:p-5 gap-5 min-h-[500px] sm:min-h-[600px] h-full overflow-hidden">
               <div className="flex justify-between h-[10%] w-full">
