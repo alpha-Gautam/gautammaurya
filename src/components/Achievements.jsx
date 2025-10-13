@@ -18,10 +18,7 @@ function Achievements() {
           🏅 Qualified GATE 2025 DA(Data Science AI) — Score: 319, Rank: 10928
         </span>
         <span className="text-lg sm:text-xl font-semibold mb-5 text-center">
-          🏅 1st Rank — Institute-level coding contest 'Ode 2 Code', Jan 2024
-        </span>
-        <span className="text-lg sm:text-xl font-semibold mb-5 text-center">
-          🏅 Solved 300+ problems across (leetcode, gfg, hackerrank, etc).
+          🏅 Solved 200+ problems across (leetcode, gfg, hackerrank, etc).
         </span>
       </div>
     </div>
