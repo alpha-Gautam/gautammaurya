@@ -1,5 +1,5 @@
 import React from "react";
-import { AchievementsIcons } from "../assets/icons";
+import { AchievementsIcons, LeetCodeIcon } from "../assets/icons";
 
 function Achievements() {
   return (
@@ -19,6 +19,16 @@ function Achievements() {
         </span>
         <span className="text-lg sm:text-xl font-semibold mb-5 text-center">
           🏅 Solved 200+ problems across (leetcode, gfg, hackerrank, etc).
+        </span>
+        <span className="text-lg sm:text-xl font-semibold mb-5 text-center">
+          <a
+            href="https://leetcode.com/u/Gautam-Maurya/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-2 hover:text-blue-400 transition-colors"
+          >
+            <LeetCodeIcon />
+          </a>
         </span>
       </div>
     </div>
